@@ -1,0 +1,12 @@
+module.exports.authController = require('./auth.controller');
+module.exports.userController = require('./user.controller');
+module.exports.commentController = require('./comment.controller');
+module.exports.complaintController = require('./complaint.controller');
+module.exports.roleController = require('./role.controller');
+module.exports.permissionController = require('./permission.controller');
+module.exports.campaignController = require('./campaign.controller');
+module.exports.campaignImagesController = require('./campaignImages.controller');
+module.exports.donationController = require('./donation.controller');
+module.exports.extensionController = require('./extension.controller');
+// module.exports.historyController = require('./withdrawal-history.controller');
+// module.exports.userLogs = require('./user-logs.controller');
