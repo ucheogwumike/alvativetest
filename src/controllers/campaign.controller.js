@@ -156,7 +156,7 @@ const createReceipiant = catchAsync(async (req, res) => {
     });
     res.send(rec);
   } else {
-    res.json({ error: 'please make sure you have the correct first name and last name please try again' });
+    throw new ApiError(httpStatus.NOT_FOUND, 'please make sure you have the correct first name and last name please try again');
   }
   // res.json({ error: 'please make sure you have the correct first name and last name please try again' });
 });
