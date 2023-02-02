@@ -59,7 +59,7 @@ const paystackCallback = catchAsync(async (req, res) => {
       reference: response.data.reference,
     };
     // const donation = await donationService.createDonation(donationdata);
-    res.redirect(`http://127.0.0.1:5500/assets/index.html`);
+    res.redirect(`https://alvativetestfe.netlify.app/`);
     // const donation = await donationService.createDonation(donationdata);
     // if (donation) {
     //   res.redirect(await donationService.getDonationById(donationdata.id));
