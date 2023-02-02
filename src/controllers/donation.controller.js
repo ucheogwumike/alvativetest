@@ -59,7 +59,7 @@ const paystackCallback = catchAsync(async (req, res) => {
       reference: response.data.reference,
     };
     const donation = await donationService.createDonation(donationdata);
-    res.redirect(`/v1/donations/${donation.id}`);
+    res.redirect(`http://127.0.0.1:5500/assets/index.html`);
     // const donation = await donationService.createDonation(donationdata);
     // if (donation) {
     //   res.redirect(await donationService.getDonationById(donationdata.id));
